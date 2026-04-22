@@ -1420,27 +1420,9 @@ a:hover {
   grid-column: 1;
   grid-row: 6;
 }
-/* ===== Work Experience Timeline Fix ===== */
-
 .timeline-date {
+  font-size: 16px;
   font-weight: 500;
   color: #555;
-}
-
-.work-box {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
-}
-
-.w-title {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.company {
-  color: #777;
   margin-bottom: 10px;
 }
