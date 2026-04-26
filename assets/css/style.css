@@ -1274,6 +1274,13 @@ a:hover {
   font-style: italic;
 }
 
+.timeline-date {
+  text-decoration: none;              /* remove default underline */
+  border-bottom: 2px solid #3b82f6;   /* blue underline */
+  padding-bottom: 2px;
+  font-weight: 500;                  /* optional: slightly bold */
+}
+
 /*------/ Comments /------*/
 .box-comments .list-comments li {
   padding-bottom: 40px;
