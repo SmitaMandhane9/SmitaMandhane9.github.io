@@ -281,6 +281,19 @@ a:hover {
   width: 25px;
 }
 
+.project-link {
+  color: #2563eb;       /* nice blue */
+  font-weight: 600;     /* semi-bold */
+  text-decoration: none;
+  display: block;       /* puts them on separate lines */
+  margin-top: 5px;
+}
+
+.project-link:hover {
+  color: #1d4ed8;       /* darker blue on hover */
+  text-decoration: underline;
+}
+
 /*--/ Scrolltop s /--*/
 .scrolltop-mf {
   position: relative;
