@@ -233,6 +233,11 @@ a:hover {
   margin-right: 10px;
 }
 
+.section-line {
+  height: 2px;
+  background-color: #93c5fd; /* light blue */
+}
+
 /*------/ Ico Circle /------*/
 .ico-circle {
   height: 100px;
