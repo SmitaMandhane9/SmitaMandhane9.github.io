@@ -1461,6 +1461,135 @@ a:hover {
   margin-left: 40px;
 }
 
+/* ===============================
+   Mobile Friendly Responsive Fixes
+================================= */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  /* Hero / Intro section */
+  .intro-title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .intro-subtitle {
+    font-size: 18px;
+  }
+
+  /* About section */
+  .about-mf .box-shadow-full {
+    padding: 2rem 1.2rem;
+  }
+
+  .about-mf .about-img {
+    text-align: center;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 0;
+    max-width: 220px;
+  }
+
+  .about-me {
+    margin-top: 25px;
+  }
+
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* Skills */
+  .skill-mf {
+    margin-top: 25px;
+  }
+
+  /* Work experience / timeline */
+  .timeline::before,
+  .timeline::after {
+    left: 20px;
+  }
+
+  .timeline-block,
+  .timeline-block-left,
+  .timeline-block-right {
+    width: 100%;
+    left: 0;
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+
+  .timeline-block-left .marker,
+  .timeline-block-right .marker {
+    left: 11px;
+    right: auto;
+  }
+
+  .timeline-content {
+    width: 100%;
+  }
+
+  .timeline-date-outside {
+    position: relative;
+    top: auto;
+    left: auto !important;
+    right: auto !important;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  /* Cards / Projects / Certifications */
+  .project-card,
+  .service-box,
+  .work-box {
+    margin-bottom: 25px;
+    height: auto;
+  }
+
+  .w-title {
+    font-size: 18px;
+  }
+
+  /* Contact */
+  .contact-card {
+    padding: 30px 20px;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 15px;
+  }
+
+  /* CTA */
+  .cta-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .cta-container h2 {
+    max-width: 100%;
+    font-size: 22px;
+  }
+}
+
 /*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
